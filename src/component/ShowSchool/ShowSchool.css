@@ -1,0 +1,11 @@
+.other-img{
+    height: 195px;
+}
+.others-prg{
+    background-image: linear-gradient(#8F008E,#d285d8);
+
+}
+.btn:hover{
+    color: white;
+    background-image: linear-gradient(#8F008E,#d285d8);
+}
