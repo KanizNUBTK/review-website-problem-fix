@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +11,7 @@ import CampusLife from './component/CampusLife/CampusLife';
 import Header from './component/Header/Header';
 import Footer from './component/Footer/Footer';
 import Services from './component/Services/Services';
+import Details from './component/Details/Details';
 
 function App() {
   return (
@@ -28,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/service">
             <Services></Services>
+          </Route>
+          <Route exact path="/details/:detailsId" >
+            <Details />
           </Route>
           <Route exact path="/campusLife">
             <CampusLife></CampusLife>

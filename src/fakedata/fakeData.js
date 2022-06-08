@@ -1,4 +1,4 @@
-const fakedata = [
+const fakeData = [
     {
         id:1,
         deptName:'CSE',
@@ -72,3 +72,4 @@ const fakedata = [
         description:'The American Corners serve as English language libraries and cultural centers designed for sharing information about the United States, promoting foreign exchange programs and American higher education, improving English language fluency and organizing cultural activities and events.'
     }
 ]
+export default fakeData;
